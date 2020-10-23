@@ -12,11 +12,11 @@ Finally, you'll begin to get the sort of attention that you have always felt you
 
 ### Prerequisites
 
-__Disclaimer:__ _Oh My Bash works best on macOS and Linux._
+**Disclaimer:** _Oh My Bash works best on macOS and Linux._
 
-* Unix-like operating system (macOS or Linux)
-* `curl` or `wget` should be installed
-* `git` should be installed
+- Unix-like operating system (macOS or Linux)
+- `curl` or `wget` should be installed
+- `git` should be installed
 
 ### Basic Installation
 
@@ -25,20 +25,20 @@ Oh My Bash is installed by running one of the following commands in your termina
 #### via curl
 
 ```shell
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/joe41203/oh-my-bash/master/tools/install.sh)"
 ```
 
 #### via wget
 
 ```shell
-bash -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)"
+bash -c "$(wget https://raw.githubusercontent.com/joe41203/oh-my-bash/master/tools/install.sh -O -)"
 ```
 
 ## Using Oh My Bash
 
 ### Plugins
 
-Oh My Bash comes with a shit load of plugins to take advantage of. You can take a look in the [plugins](https://github.com/ohmybash/oh-my-bash/tree/master/plugins) directory and/or the [wiki](https://github.com/ohmybash/oh-my-bash/wiki/Plugins) to see what's currently available.
+Oh My Bash comes with a shit load of plugins to take advantage of. You can take a look in the [plugins](https://github.com/joe41203/oh-my-bash/tree/master/plugins) directory and/or the [wiki](https://github.com/joe41203/oh-my-bash/wiki/Plugins) to see what's currently available.
 
 #### Enabling Plugins
 
@@ -52,11 +52,11 @@ plugins=(git bundler osx rake ruby)
 
 #### Using Plugins
 
-Most plugins (should! we're working on this) include a __README__, which documents how to use them.
+Most plugins (should! we're working on this) include a **README**, which documents how to use them.
 
 ### Themes
 
-We'll admit it. Early in the Oh My Bash world, we may have gotten a bit too theme happy. We have over one hundred themes now bundled. Most of them have [screenshots](https://github.com/ohmybash/oh-my-bash/wiki/Themes) on our wiki or alternatively [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/themes) wiki.
+We'll admit it. Early in the Oh My Bash world, we may have gotten a bit too theme happy. We have over one hundred themes now bundled. Most of them have [screenshots](https://github.com/joe41203/oh-my-bash/wiki/Themes) on our wiki or alternatively [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/themes) wiki.
 
 #### Selecting a Theme
 
@@ -73,17 +73,16 @@ To use a different theme, simply change the value to match the name of your desi
 ```shell
 OSH_THEME="agnoster" # (this is one of the fancy ones)
 # you might need to install a special Powerline font on your console's host for this to work
-# see https://github.com/ohmybash/oh-my-bash/wiki/Themes#agnoster
+# see https://github.com/joe41203/oh-my-bash/wiki/Themes#agnoster
 ```
 
 Open up a new terminal window and your prompt should look something like this:
 
 ![Agnoster theme](img/example_powerline.png)
 
-In case you did not find a suitable theme for your needs, please have a look at the wiki for [more of them](https://github.com/ohmybash/oh-my-bash/wiki/External-themes).
+In case you did not find a suitable theme for your needs, please have a look at the wiki for [more of them](https://github.com/joe41203/oh-my-bash/wiki/External-themes).
 
 If you're feeling feisty, you can let the computer select one randomly for you each time you open a new terminal window.
-
 
 ```shell
 OSH_THEME="random" # (...please let it be pie... please be some pie..)
@@ -104,7 +103,7 @@ The default location is `~/.oh-my-bash` (hidden in your home directory)
 If you'd like to change the install directory with the `OSH` environment variable, either by running `export OSH=/your/path` before installing, or by setting it before the end of the install pipeline like this:
 
 ```shell
-export OSH="$HOME/.dotfiles/oh-my-bash"; sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+export OSH="$HOME/.dotfiles/oh-my-bash"; sh -c "$(curl -fsSL https://raw.githubusercontent.com/joe41203/oh-my-bash/master/tools/install.sh)"
 ```
 
 #### Manual Installation
@@ -112,10 +111,10 @@ export OSH="$HOME/.dotfiles/oh-my-bash"; sh -c "$(curl -fsSL https://raw.githubu
 ##### 1. Clone the repository:
 
 ```shell
-git clone git://github.com/ohmybash/oh-my-bash.git ~/.oh-my-bash
+git clone git://github.com/joe41203/oh-my-bash.git ~/.oh-my-bash
 ```
 
-##### 2. *Optionally*, backup your existing `~/.bashrc` file:
+##### 2. _Optionally_, backup your existing `~/.bashrc` file:
 
 ```shell
 cp ~/.bashrc ~/.bashrc.orig
@@ -143,8 +142,8 @@ Once you open up a new terminal window, it should load sh with Oh My Bash's conf
 
 If you have any hiccups installing, here are a few common fixes.
 
-* You _might_ need to modify your `PATH` in `~/.bashrc` if you're not able to find some commands after switching to `oh-my-bash`.
-* If you installed manually or changed the install location, check the `OSH` environment variable in `~/.bashrc`.
+- You _might_ need to modify your `PATH` in `~/.bashrc` if you're not able to find some commands after switching to `oh-my-bash`.
+- If you installed manually or changed the install location, check the `OSH` environment variable in `~/.bashrc`.
 
 ### Custom Plugins and Themes
 
@@ -188,7 +187,7 @@ If you want to uninstall `oh-my-bash`, just run `uninstall_oh_my_bash` from the 
 
 I'm far from being a [Bash](https://www.gnu.org/software/bash/) expert and suspect there are many ways to improve – if you have ideas on how to make the configuration easier to maintain (and faster), don't hesitate to fork and send pull requests!
 
-We also need people to test out pull-requests. So take a look through [the open issues](https://github.com/ohmybash/oh-my-bash/issues) and help where you can.
+We also need people to test out pull-requests. So take a look through [the open issues](https://github.com/joe41203/oh-my-bash/issues) and help where you can.
 
 ## Contributors
 
