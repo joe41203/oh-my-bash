@@ -9,14 +9,14 @@ issues and pull requests. Please read them closely.
 Foremost, be so kind as to [search](#use-the-search-luke). This ensures any contribution
 you would make is not already covered.
 
-* [Issues](#reporting-issues)
-  * [You have a problem](#you-have-a-problem)
-  * [You have a suggestion](#you-have-a-suggestion)
-* [Pull Requests](#submitting-pull-requests)
-  * [Getting started](#getting-started)
-  * [You have a solution](#you-have-a-solution)
-  * [You have an addition](#you-have-an-addition)
-* [Information sources (_aka_ search)](#use-the-search-luke)
+- [Issues](#reporting-issues)
+  - [You have a problem](#you-have-a-problem)
+  - [You have a suggestion](#you-have-a-suggestion)
+- [Pull Requests](#submitting-pull-requests)
+  - [Getting started](#getting-started)
+  - [You have a solution](#you-have-a-solution)
+  - [You have an addition](#you-have-an-addition)
+- [Information sources (_aka_ search)](#use-the-search-luke)
 
 **BONUS:** [Volunteering](#you-have-spare-time-to-volunteer)
 
@@ -29,7 +29,7 @@ your problem.
 
 If you find one, comment on it so we can know there are more people experiencing it.
 
-If not, look at the [Troubleshooting](https://github.com/ohmybash/oh-my-bash/wiki/Troubleshooting)
+If not, look at the [Troubleshooting](https://github.com/joe41203/oh-my-bash/wiki/Troubleshooting)
 page for instructions on how to gather data to better debug your problem.
 
 Then, you can go ahead and create an issue with as much detail as you can provide.
@@ -60,7 +60,7 @@ maintainers) by mentioning their GitHub handle (starting with `@`) in your messa
 
 You should be familiar with the basics of
 [contributing on GitHub](https://help.github.com/articles/using-pull-requests) and have a fork
-[properly set up](https://github.com/ohmybash/oh-my-bash/wiki/Contribution-Technical-Practices).
+[properly set up](https://github.com/joe41203/oh-my-bash/wiki/Contribution-Technical-Practices).
 
 You MUST always create PRs with _a dedicated branch_ based on the latest upstream tree.
 
@@ -83,7 +83,7 @@ maintainers) by mentioning their GitHub handle (starting with `@`) in your messa
 
 ### You have an addition
 
-Please [do not](https://github.com/ohmybash/oh-my-bash/wiki/Themes#dont-send-us-your-theme-for-now)
+Please [do not](https://github.com/joe41203/oh-my-bash/wiki/Themes#dont-send-us-your-theme-for-now)
 send themes for now.
 
 Please be so kind as to [search](#use-the-search-luke) for any pending, merged or rejected Pull Requests
@@ -96,7 +96,7 @@ maintainers) by mentioning their GitHub handle (starting with `@`) in your messa
 
 For any extensive change, _eg_ a new plugin, you will have to find testers to +1 your PR.
 
-----
+---
 
 ## Use the Search, Luke
 
@@ -107,17 +107,17 @@ to help you check whether a similar contribution to yours already exists. Please
 before making any contribution, it avoids duplicates and eases maintenance. Trust me,
 that works 90% of the time.
 
-You can also take a look at the [FAQ](https://github.com/ohmybash/oh-my-bash/wiki/FAQ)
+You can also take a look at the [FAQ](https://github.com/joe41203/oh-my-bash/wiki/FAQ)
 to be sure your contribution has not already come up.
 
 If all fails, your thing has probably not been reported yet, so you can go ahead
 and [create an issue](#reporting-issues) or [submit a PR](#submitting-pull-requests).
 
-----
+---
 
 ### You have spare time to volunteer
 
 Very nice!! :)
 
-Please have a look at the [Volunteer](https://github.com/ohmybash/oh-my-bash/wiki/Volunteers)
+Please have a look at the [Volunteer](https://github.com/joe41203/oh-my-bash/wiki/Volunteers)
 page for instructions on where to start and more.
